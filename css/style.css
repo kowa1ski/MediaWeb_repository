@@ -90,10 +90,10 @@ nav ul li:hover a{
 	top: 0px;
 	left: 0px;
 	z-index: 1;
-	background-image: url(imagenes/page_presentation.png);
+	background-image: url(../imagenes/page_presentation.png);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	background-size: 100% 100%;
+	background-size: cover;
 }
 
 .title_header{
@@ -159,10 +159,10 @@ nav ul li:hover a{
 	top: 0px;
 	left: 0px;
 	z-index: 1;
-	background-image: url(imagenes/all_displays.png);
+	background-image: url(../imagenes/all_displays.png);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	background-size: 100% 110%;
+	background-size: cover;
 }
 
 .align_title_2{
@@ -252,10 +252,10 @@ nav ul li:hover a{
 	top: 0px;
 	left: 0px;
 	z-index: 1;
-	background-image: url(imagenes/team_work.png);
+	background-image: url(../imagenes/team_work.png);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	background-size: 100% 110%;
+	background-size: cover;
 	overflow: hidden;
 }
 
