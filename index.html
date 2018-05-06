@@ -4,57 +4,58 @@
 	<title>Media Web Responsive | Mejorando negocios.</title>
 	<meta charset="utf-8">
     <link rel="shortcut icon" href="imagenes/favicon.ico">
-	<link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" type="text/css" href="">
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 </head>
 <body>
 <section class="encabezado" id="section_1">
-    <header>
-    	<img src="imagenes/logotipo.png">
-    	<nav>
+    <header class="limit">
+    	<img class="b-lazy" data-src="imagenes/logotipo.png | imagenes/logotipo2x.png" alt="Logotipo">
+    	<span class="menu_button icon-menu" id="menu_button"></span>
+    	<nav class="menu_responsive" id="menu_responsive">
     		<ul>
-    			<li><a href="">Inicio</a></li>
-    			<li><a href="">Servicios</a></li>
+    			<li><a href="index.html">Inicio</a></li>
+    			<li><a href="servicios.html">Servicios</a></li>
     			<li><a href="#section_3">Planes Web</a></li>
     		</ul>
     	</nav>
     </header>
-    <center>
-        <div class="absolute title_header">
-    	    <h1>¿TU NEGOCIO TIENE PRESENCIA DIGITAL?</h1>
+    <div class="limit">
+        <div class="absolute title_header center">
+    	    <h1>¿NECESITAS UNA WEB?</h1>
             <h2>Adquiere una pagina web por tan solo $300 al mes.</h2>
         </div>
-        <div class="absolute icon_header">
-            <a href="#section_2"><img src="imagenes/bottom_arrow.png"></a>
+        <div class="absolute icon_header center">
+            <a href="#section_2"><img class="transform b-lazy" data-src="imagenes/bottom_arrow.png | imagenes/bottom_arrow.png" alt="Empezar"></a>
         </div>
-    </center>
+    </div>
 </section>
 <section class="container_1" id="section_2">
-	<center>
-		<div class="absolute align_title_1">
+    <div class="limit">
+		<div class="relative align_title_1 center">
 			<h2 class="green">BENEFICIOS</h2>
 		</div>
-	</center>
-	<div class="master_box">
+	    <div class="master_box center">
 		<div class="box">
-            <img src="imagenes/icon_www.png">
+            <img class="b-lazy" data-src="imagenes/icon_www.png | imagenes/icon_www2x.png" alt="Global">
             <h3 class="green small">Profesionalismo</h2>
             <p>Dale una imagen digital profesional a tu negocio</p>      
         </div>
 		<div class="box">
-            <img src="imagenes/icon_people.png">
+            <img class="b-lazy" data-src="imagenes/icon_people.png | imagenes/icon_people2x.png" alt="Personas">
             <h3 class="green small">Clientes</h2>
             <p>Obten muchos mas clientes gracias a la confiabilidad generada</p>  
         </div>
 		<div class="box">
-            <img src="imagenes/icon_cash.png">
+            <img class="b-lazy" data-src="imagenes/icon_cash.png | imagenes/icon_cash2x.png" alt="Dinero">
             <h3 class="green small">Ganancias</h2>
             <p>Incrementa tus ingresos, vende más productos o aporta más servicios</p>
         </div>
-	</div>
+	    </div>
+    </div>
 </section>
 <section class="planes" id="section_3">
-    <article>
+    <article class="limit">
         <div class="absolute align_title_2">
             <h2 class="green">PLAN BASICO MENSUAL</h2>
         </div>
@@ -83,16 +84,14 @@
     </article>
 </section>
 <section class="container_2" id="section_4">
-    <center>
-        <div class="absolute align_title_3">
+        <div class="absolute align_title_3 center limit">
             <h2 class="green">PLANES SIN CONTRATO</h2>
             <p class="descripcion_slogan">Obten tu plan sin ningun plazo forzoso, limitaciones o sorpresas</p>
         </div>
-    </center>
 </section>
 <section class="contacto" id="section_5">
-    <div class="absolute align_title_2">
-        <h2 class="green">¿Necesitas mas informacion?</h2>
+    <div class="absolute align_title_2 align_redimension">
+        <h2 class="green">¿Necesitas informacion?</h2>
     </div>
     <div class="absolute align_text align_correction">
         <p class="descripcion">Llena el formulario de contacto especificando tu duda para que obtengas informacion al respecto.</p>
@@ -116,28 +115,29 @@
                 <textarea name="textarea" required=""></textarea>
             </div>
             <center>
-                <button type="submit" class="send_button"><img src="imagenes/icon_send.png" alt="" /></button>
+                <button type="submit" class="send_button"><img class="b-lazy" data-src="imagenes/icon_send.png | imagenes/icon_send2x.png" alt="Enviar" /></button>
             </center>
         </form>
     </div>
     <div class="absolute use_chat">
         <a href="">
-            <img src="imagenes/icon_chat.png">
+            <img class="b-lazy" data-src="imagenes/icon_chat.png | imagenes/icon_chat2x.png" alt="Usar Chat">
             <p>Usar chat ahora mismo</p>
         </a>
     </div>
 </section>
 <footer>
-    <div class="boxing">
+    <div class="boxing limit">
         <div>
-            <h2 class="green small">DESARROLLADORES</h2>
-            <a href=""><img src="imagenes/Luis Dark.jpg" class="img_icon center"></a>
+            <h2 class="green small">NOSOTROS</h2>
+            <p>Equipo de Freelancers especializados en el Diseño y Desarrollo Web</p>
         </div>
         <div>
-            <h2 class="green small">REDES SOCIALES</h2>
-            <a href=""><img src="imagenes/icon_facebook.png"> Facebook</a><br><br>
-            <a href=""><img src="imagenes/icon_youtube.png"> Youtube</a><br><br>
-            <a href=""><img src="imagenes/icon_twitter.png"> Twitter</a>
+            <h2 class="green small">CONTACTO</h2>
+            <a href=""><span class="icon-facebook2"></span></a>
+            <a href=""><span class="icon-twitter"></a>
+            <a href=""><span class="icon-youtube"></a>
+            <a href=""><span class="icon-github"></a>
         </div>
         <div>
             <h2 class="green small">LINKS</h2>
@@ -149,8 +149,24 @@
         </div>
     </div>
     <div class="legend">
-        <p class="center">Luis Miguel Falcon Montaño | Diseñador Web Front-End</p>
+        <p class="center">Media Web | Todos los derechos reservados</p>
     </div>
 </footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/blazy/1.8.2/blazy.min.js"></script>
+<script type="text/javascript">
+	var $menuButton = document.getElementById('menu_button');
+    var $menu = document.getElementById('menu_responsive');
+    $menuButton.addEventListener('touchstart', togleMenu);
+    
+    function togleMenu(){
+	$menu.classList.toggle('active');
+	$menuButton.classList.toggle('fijar');
+	$menuButton.classList.toggle('icon-cross');
+    };
+
+    var bLazy = new Blazy({
+    // options
+    });
+</script>
 </body>
 </html>
