@@ -621,6 +621,9 @@ footer span:hover{
     	position: absolute;
     	left: -20px;
     }
+    .encabezado{
+    	height: 500px;
+    }
     .menu_button{
     	left: 80%;
     }
