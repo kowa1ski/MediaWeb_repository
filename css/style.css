@@ -623,6 +623,7 @@ footer span:hover{
     }
     .encabezado{
     	height: 550px;
+    	overflow: hidden;
     }
     .menu_button{
     	left: 80%;
