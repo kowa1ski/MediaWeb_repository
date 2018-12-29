@@ -340,8 +340,8 @@ nav ul li:hover a{
 	overflow: hidden;
 }
 
-.align_redimension{ 
-	width: auto; padding-right: 10px; 
+.align_redimension{
+	width: auto; padding-right: 10px;
 }
 
 .align_correction{ top: 130px; }
@@ -478,7 +478,7 @@ footer span:hover{
 /* Responsive Design 1024 */
 @media screen and (max-width: 1024px) {
 	body {
-		
+
 	}
 	.limit {
 		max-width: 1024px;
@@ -629,7 +629,7 @@ footer span:hover{
     	left: 80%;
     }
     .title_header h1{
-    	font-size: 25px; 
+    	font-size: 25px;
     }
     .title_header h2{
     	font-size: 14px;
@@ -653,7 +653,7 @@ footer span:hover{
     .legend p{
     	font-size: 15px;
     	padding-left: 10px;
-    	padding-right: 10px; 
+    	padding-right: 10px;
     }
     .encabezado, .planes, .contacto{
     	background-position: 100%;
