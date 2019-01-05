@@ -181,7 +181,7 @@ nav ul li:hover a{
 	color: #66ff00;
 	font-size: 35px;
 	font-weight: 300;
-    line-height: 50px;
+  line-height: 50px;
 }
 
 .encabezado h2{
@@ -237,7 +237,7 @@ nav ul li:hover a{
 	height: 650px;
 	top: 0px;
 	left: 0px;
-	z-index: -10;
+	z-index: 10;
 	overflow: hidden;
 	background-image: url(../imagenes/all_displays.png);
 	background-repeat: no-repeat;
@@ -475,6 +475,7 @@ footer span:hover{
 	font-weight: 600;
 	font-family: dekar;
 }
+
 /* Responsive Design 1024 */
 @media screen and (max-width: 1024px) {
 	body {
