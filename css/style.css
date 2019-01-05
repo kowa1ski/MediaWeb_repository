@@ -43,24 +43,24 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-menu:before {
-  content: "\e9bd";
+/* He sustituido el icono del menú por este otro de , bars , que
+va a ser el menú. */
+.icon-bars:before {
+  content: "\e902";
 }
+/* Y a este le doy el nuevo valos porque he cogido otra X que se le parece */
 .icon-cross:before {
-  content: "\ea0f";
+  content: "\e903";
 }
-.icon-facebook2:before {
-  content: "\ea91";
+
+
+.icon-envelope:before {
+  content: "\e900";
 }
-.icon-twitter:before {
-  content: "\ea96";
+.icon-phone:before {
+  content: "\e901";
 }
-.icon-youtube:before {
-  content: "\ea9d";
-}
-.icon-github:before {
-  content: "\eab0";
-}
+
 
 /* Clases globales */
 .absolute{
