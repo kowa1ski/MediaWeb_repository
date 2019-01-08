@@ -509,8 +509,8 @@ footer span:hover{
     }
 }
 
-/* Responsive Design 750 */
-@media screen and (max-width: 750px) {
+/* Responsive Design 950 */
+@media screen and (max-width: 950px) {
     .menu_responsive{
         background-color: #000;
         position: fixed;
